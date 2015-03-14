@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8036683D1AB44AB2009B52CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036683C1AB44AB2009B52CF /* AppDelegate.swift */; };
+		803668401AB44AB2009B52CF /* HeartWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8036683E1AB44AB2009B52CF /* HeartWatch.xcdatamodeld */; };
+		803668421AB44AB2009B52CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803668411AB44AB2009B52CF /* ViewController.swift */; };
+		803668451AB44AB2009B52CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803668431AB44AB2009B52CF /* Main.storyboard */; };
+		803668471AB44AB2009B52CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803668461AB44AB2009B52CF /* Images.xcassets */; };
+		8036684A1AB44AB2009B52CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803668481AB44AB2009B52CF /* LaunchScreen.xib */; };
+		803668561AB44AB2009B52CF /* HeartWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803668551AB44AB2009B52CF /* HeartWatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		803668501AB44AB2009B52CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8036682F1AB44AB2009B52CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 803668361AB44AB2009B52CF;
+			remoteInfo = HeartWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		803668371AB44AB2009B52CF /* HeartWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8036683B1AB44AB2009B52CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8036683C1AB44AB2009B52CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8036683F1AB44AB2009B52CF /* HeartWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartWatch.xcdatamodel; sourceTree = "<group>"; };
+		803668411AB44AB2009B52CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		803668441AB44AB2009B52CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		803668461AB44AB2009B52CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		803668491AB44AB2009B52CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8036684F1AB44AB2009B52CF /* HeartWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		803668541AB44AB2009B52CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803668551AB44AB2009B52CF /* HeartWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartWatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		803668341AB44AB2009B52CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8036684C1AB44AB2009B52CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8036682E1AB44AB2009B52CF = {
+			isa = PBXGroup;
+			children = (
+				803668391AB44AB2009B52CF /* HeartWatch */,
+				803668521AB44AB2009B52CF /* HeartWatchTests */,
+				803668381AB44AB2009B52CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		803668381AB44AB2009B52CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803668371AB44AB2009B52CF /* HeartWatch.app */,
+				8036684F1AB44AB2009B52CF /* HeartWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803668391AB44AB2009B52CF /* HeartWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8036683C1AB44AB2009B52CF /* AppDelegate.swift */,
+				803668411AB44AB2009B52CF /* ViewController.swift */,
+				803668431AB44AB2009B52CF /* Main.storyboard */,
+				803668461AB44AB2009B52CF /* Images.xcassets */,
+				803668481AB44AB2009B52CF /* LaunchScreen.xib */,
+				8036683E1AB44AB2009B52CF /* HeartWatch.xcdatamodeld */,
+				8036683A1AB44AB2009B52CF /* Supporting Files */,
+			);
+			path = HeartWatch;
+			sourceTree = "<group>";
+		};
+		8036683A1AB44AB2009B52CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8036683B1AB44AB2009B52CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		803668521AB44AB2009B52CF /* HeartWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				803668551AB44AB2009B52CF /* HeartWatchTests.swift */,
+				803668531AB44AB2009B52CF /* Supporting Files */,
+			);
+			path = HeartWatchTests;
+			sourceTree = "<group>";
+		};
+		803668531AB44AB2009B52CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803668541AB44AB2009B52CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		803668361AB44AB2009B52CF /* HeartWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803668591AB44AB2009B52CF /* Build configuration list for PBXNativeTarget "HeartWatch" */;
+			buildPhases = (
+				803668331AB44AB2009B52CF /* Sources */,
+				803668341AB44AB2009B52CF /* Frameworks */,
+				803668351AB44AB2009B52CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartWatch;
+			productName = HeartWatch;
+			productReference = 803668371AB44AB2009B52CF /* HeartWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8036684E1AB44AB2009B52CF /* HeartWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8036685C1AB44AB2009B52CF /* Build configuration list for PBXNativeTarget "HeartWatchTests" */;
+			buildPhases = (
+				8036684B1AB44AB2009B52CF /* Sources */,
+				8036684C1AB44AB2009B52CF /* Frameworks */,
+				8036684D1AB44AB2009B52CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803668511AB44AB2009B52CF /* PBXTargetDependency */,
+			);
+			name = HeartWatchTests;
+			productName = HeartWatchTests;
+			productReference = 8036684F1AB44AB2009B52CF /* HeartWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8036682F1AB44AB2009B52CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Alberto Scampini";
+				TargetAttributes = {
+					803668361AB44AB2009B52CF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8036684E1AB44AB2009B52CF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 803668361AB44AB2009B52CF;
+					};
+				};
+			};
+			buildConfigurationList = 803668321AB44AB2009B52CF /* Build configuration list for PBXProject "HeartWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8036682E1AB44AB2009B52CF;
+			productRefGroup = 803668381AB44AB2009B52CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				803668361AB44AB2009B52CF /* HeartWatch */,
+				8036684E1AB44AB2009B52CF /* HeartWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803668351AB44AB2009B52CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803668451AB44AB2009B52CF /* Main.storyboard in Resources */,
+				8036684A1AB44AB2009B52CF /* LaunchScreen.xib in Resources */,
+				803668471AB44AB2009B52CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8036684D1AB44AB2009B52CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803668331AB44AB2009B52CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803668421AB44AB2009B52CF /* ViewController.swift in Sources */,
+				803668401AB44AB2009B52CF /* HeartWatch.xcdatamodeld in Sources */,
+				8036683D1AB44AB2009B52CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8036684B1AB44AB2009B52CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803668561AB44AB2009B52CF /* HeartWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		803668511AB44AB2009B52CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 803668361AB44AB2009B52CF /* HeartWatch */;
+			targetProxy = 803668501AB44AB2009B52CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		803668431AB44AB2009B52CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803668441AB44AB2009B52CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		803668481AB44AB2009B52CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803668491AB44AB2009B52CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803668571AB44AB2009B52CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		803668581AB44AB2009B52CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8036685A1AB44AB2009B52CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8036685B1AB44AB2009B52CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8036685D1AB44AB2009B52CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartWatch.app/HeartWatch";
+			};
+			name = Debug;
+		};
+		8036685E1AB44AB2009B52CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartWatch.app/HeartWatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803668321AB44AB2009B52CF /* Build configuration list for PBXProject "HeartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803668571AB44AB2009B52CF /* Debug */,
+				803668581AB44AB2009B52CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803668591AB44AB2009B52CF /* Build configuration list for PBXNativeTarget "HeartWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8036685A1AB44AB2009B52CF /* Debug */,
+				8036685B1AB44AB2009B52CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8036685C1AB44AB2009B52CF /* Build configuration list for PBXNativeTarget "HeartWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8036685D1AB44AB2009B52CF /* Debug */,
+				8036685E1AB44AB2009B52CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8036683E1AB44AB2009B52CF /* HeartWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8036683F1AB44AB2009B52CF /* HeartWatch.xcdatamodel */,
+			);
+			currentVersion = 8036683F1AB44AB2009B52CF /* HeartWatch.xcdatamodel */;
+			path = HeartWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8036682F1AB44AB2009B52CF /* Project object */;
+}
