@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HeartWatch
+//  TimerWatch
 //
 //  Created by Alberto Scampini on 14/03/15.
 //  Copyright (c) 2015 Alberto Scampini. All rights reserved.

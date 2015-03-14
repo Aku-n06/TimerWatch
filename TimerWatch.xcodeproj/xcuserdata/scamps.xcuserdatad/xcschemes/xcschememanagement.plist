@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - HeartWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>HeartWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HeartWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Notification - HeartWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>8036684E1AB44AB2009B52CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>803668711AB44AC7009B52CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
